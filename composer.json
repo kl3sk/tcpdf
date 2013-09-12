@@ -1,6 +1,6 @@
 {
 	"name": "ensepar/tcpdf",
-	"version": "5.0.002",
+	"version": "5.0.003",
 	"homepage": "http://www.tcpdf.org/",
 	"type": "library",
 	"description": "TCPDF is a PHP class for generating PDF documents.",

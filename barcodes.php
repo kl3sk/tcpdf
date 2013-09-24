@@ -1140,7 +1140,7 @@ class TCPDFBarcode {
 			$seq .= '010101'; // right guard bar
 		} else {
 			$bararray = array('code' => $code, 'maxw' => 0, 'maxh' => 1, 'bcode' => array());
-			$half_len = ceil($len / 2);
+			$half_len = (int)ceil($len / 2);
 			if ($len == 8) {
 				for ($i = 0; $i < $half_len; ++$i) {
 					$seq .= $codes['A'][$code{$i}];
